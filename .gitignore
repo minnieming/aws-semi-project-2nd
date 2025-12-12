@@ -1,0 +1,13 @@
+# Terraform settings and data files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.zip
+# Crash dumps and logs
+*.log
+crash.log
+
+# Key files (보안상 매우 중요! git에 올라가면 안 됨)
+*.pem
+*.key
